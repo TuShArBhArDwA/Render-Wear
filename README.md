@@ -56,7 +56,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/render-wear.git
+   git clone https://github.com/TuShArBhArDwA/Render-Wear.git
    cd render-wear
 2. Install dependencies:
    ```bash
