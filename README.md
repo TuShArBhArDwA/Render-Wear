@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. 🤖 [Introduction](#introduction)  
 2. 🔋 [Features](#features)  
@@ -18,13 +18,13 @@
 
 ---
 
-## 🤖 Introduction  
+## Introduction  
 
 **Render Wear** allows you to design custom virtual apparel using an interactive 3D environment. Personalize your swag by picking colors, adding logos, and leveraging AI-generated designs. Built with cutting-edge technologies like **React.js**, **Three.js**, and **OpenAI**, Render Wear showcases the seamless integration of 3D rendering and AI features.  
 
 ---
 
-## 🔋 Features  
+## Features  
 
 - **3D Customization**: Create virtual apparel dynamically in a 3D environment.  
 - **Color Personalization**: Apply custom colors to apparel.  
@@ -35,7 +35,7 @@
 
 ---
 
-## ⚙️ Technologies Used  
+## Technologies Used  
 
 - **React.js**: For building the interactive user interface.  
 - **Three.js**: For creating and rendering 3D visuals.  
@@ -45,14 +45,14 @@
 
 ---
 
-## 🚀 Getting Started  
+## Getting Started  
 
-### 📋 Prerequisites  
+### Prerequisites  
 
 - Node.js (v16.14.0 or higher)  
 - npm or yarn package manager  
 
-### 💻 Installation  
+### Installation  
 
 1. Clone the repository:  
    ```bash
@@ -68,7 +68,7 @@
    ```arduino
    http://localhost:5173
 
-### 🛠️ Usage  
+### Usage  
 
 - Use the **color picker** to customize the apparel's base color.  
 - Upload a **logo** to apply it to your apparel design.  
@@ -78,7 +78,7 @@
 
 ---
 
-### 🤝 Contributing  
+## Contributing  
 
 Contributions are welcome and appreciated! To contribute:  
 
@@ -97,14 +97,14 @@ Contributions are welcome and appreciated! To contribute:
 Will review your pull request and merge it if everything looks good. 😊
 
 ---
-### 📝 License  
+## License  
 
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this project. See the `LICENSE` file for more details.  
 
 ---
 
-### 🙌 Acknowledgements  
+## Acknowledgements  
 
 We would like to thank:  
 
