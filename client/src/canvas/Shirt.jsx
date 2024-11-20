@@ -10,9 +10,11 @@ const Shirt = () => {
   const { nodes, materials } = useGLTF('/shirt_baked.glb');
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
+  useFrame((state, delta) => easing.dampC(materials.lambert1.color, snap.color, 0.25, delta));
+  const stateString = JSON.stringify(snap);
   return (
     <group 
-    // key={stateString}
+    key={stateString}
     >
     <mesh
       castShadow
@@ -21,7 +23,7 @@ const Shirt = () => {
       material-roughness={1}
       dispose={null}
     >
-      {/* {snap.isFullTexture && (
+      {snap.isFullTexture && (
         <Decal 
           position={[0, 0, 0]}
           rotation={[0, 0, 0]}
@@ -40,7 +42,7 @@ const Shirt = () => {
           depthTest={false}
           depthWrite={true}
         />
-      )} */}
+      )}
     </mesh>
   </group>
   )
